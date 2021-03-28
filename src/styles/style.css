@@ -1,0 +1,84 @@
+@import './roboto.css';
+
+body {
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    background-image: url(../assets/images/mountains-190055.jpg);
+    background-position: top right;
+    transition: all 2.9s;
+}
+
+.container {
+    font-size: 16px;
+    margin-top: 40px;
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    color: white;
+    background: transparent;
+    border-radius: 5px;
+    border-color: burlywood;
+    margin-left: 5px;
+}
+
+input::-webkit-input-placeholder {
+    color: whitesmoke;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+button {
+    font-size: 14px;
+    color: white;
+    background-color: transparent;
+    border-color: burlywood;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.temperature {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    font-size: 50px;
+}
+
+img {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.block__tempeatare-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.block__meteo-data {
+    display: flex;
+    justify-content: space-evenly;
+}
+.meteo-info {
+    margin-left: -10%;
+}
+.description-weather {
+    font-size: 24px;
+    margin: 0;
+}
